@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body,html{
+    background-color: #5f2c82;
+
+    
+}
+main{
+    
+    height: 100vh;
+    width: 100vw;
+    align-items: flex-start;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+section{
+   background-color:  #e6dcebf1; 
+   height: 300px;
+   width: 300px;
+   padding: 20px;
+   border-radius:2px 2px;
+  
+
+}
+.campo{
+    display: block;
+    padding: 10px;
+}
+section#login>div#FORMULARIO{
+display: block;
+padding: 10px;
+border-radius: 10px;
+}
